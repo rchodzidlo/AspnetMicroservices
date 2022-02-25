@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Bask
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{D2D6C750-6015-4AD2-8FCA-666E4ECE4414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doscount.API", "Services\Doscount\Doscount.API\Doscount.API.csproj", "{6563FD17-D01E-4AAC-BA02-ED9D5DF09A0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\Doscount\Doscount.API\Discount.API.csproj", "{6563FD17-D01E-4AAC-BA02-ED9D5DF09A0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

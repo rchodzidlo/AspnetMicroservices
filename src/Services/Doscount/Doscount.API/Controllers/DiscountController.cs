@@ -1,5 +1,5 @@
-﻿using Doscount.API.Entities;
-using Doscount.API.Repositories;
+﻿using Discount.API.Entities;
+using Discount.API.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Doscount.API.Controllers
+namespace Discount.API.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]

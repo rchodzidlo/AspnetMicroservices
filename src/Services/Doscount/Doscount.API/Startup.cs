@@ -1,4 +1,4 @@
-using Doscount.API.Repositories;
+using Discount.API.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Doscount.API
+namespace Discount.API
 {
     public class Startup
     {
@@ -31,7 +31,7 @@ namespace Doscount.API
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Doscount.API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Discount.API", Version = "v1" });
             });
         }
 
@@ -42,7 +42,7 @@ namespace Doscount.API
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Doscount.API v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Discount.API v1"));
             }
 
             app.UseRouting();
